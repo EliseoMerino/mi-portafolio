@@ -1,4 +1,3 @@
-        // Muestra u oculta el botón según la posición de desplazamiento
         window.onscroll = function () {
             scrollFunction();
         };
@@ -12,9 +11,8 @@
             }
         }
 
-        // Desplazamiento suave hacia arriba cuando se hace clic en el botón
         function scrollToTop() {
-            var scrollStep = -window.scrollY / (1000 / 15); // Ajusta la velocidad del desplazamiento aquí
+            var scrollStep = -window.scrollY / (1000 / 15);
             function scroll() {
                 if (window.scrollY > 0) {
                     window.scrollBy(0, scrollStep);
