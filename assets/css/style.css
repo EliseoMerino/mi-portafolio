@@ -86,7 +86,15 @@
 .brand-7 {
 	border-top: 3px solid green;
 }
-
+.brand-8 {
+	border-top: 3px solid rgb(0, 109, 128);
+}
+.brand-9 {
+	border-top: 3px solid rgb(128, 0, 0);
+}
+.brand-10 {
+	border-top: 3px solid green;
+}
 .hab{
     width: 100%;
     padding: 2rem 0;
